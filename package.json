@@ -3,8 +3,8 @@
   "version": "2.2.0",
   "description": "Angular2 Tooltip component",
   "main": "index.js",
+  "types": "./src/content/options.d.ts",
   "scripts": {
-    "postinstall": "typings install",
     "pretest": "rm -rf dist ; webpack",
     "test": "webpack-dev-server"
   },
