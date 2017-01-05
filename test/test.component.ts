@@ -3,7 +3,7 @@ import { BrowserModule }  from '@angular/platform-browser';
 
 @Component({
     selector: 'test-app',
-    template: require('./test.component.html')
+    template: './test.component.html'
 })
 
 export class TestComponent implements OnInit {
